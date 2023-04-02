@@ -1,0 +1,144 @@
+.main-content{
+    background-color: transparent;
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media(max-width: 768px){
+    .main-content{
+        max-width: 90vw;
+    }
+}
+
+.main-content__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.main-content__container__posts{
+    max-width: 660px;
+    width: 100%;
+}
+
+@media(max-width: 768px){
+    .main-content__container__posts{
+        max-width: 100%;
+    }
+}
+
+.main-content__container__posts__post{
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.main-content__container__posts__post h2{
+    color: #f7b600;
+}
+@media(max-width: 768px){
+    .main-content__container__posts__post h2{
+        font-size: 1.2em;
+    }
+}
+.main-content__container__posts__post span{
+    margin: 10px 0;
+    display: block;
+    font-size: .8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 5px;
+}
+
+.main-content__container__posts__post img{
+    width: 620px;
+    border-radius: 5px;
+}
+@media(max-width: 768px){
+    .main-content__container__posts__post img{
+        width: 100%;
+    }
+}
+.main-content__container__posts__post a{
+    text-decoration: none;
+    color: #f7b600;
+}
+
+.main-content__container__posts__post a:hover{
+    text-decoration: underline;
+}
+
+.main-content__container__side-area{
+    max-width: 240px;
+    width: 100%;
+}
+@media(max-width: 768px){
+    .main-content__container__side-area{
+        display: none;
+    }
+}
+.main-content__container__side-area__content{
+    background-color: white;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main-content__container__side-area__content .title ,.main-content__container__side-area__nav .title{
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main-content__container__side-area__content .post{
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
+
+.main-content__container__side-area__content .post a{
+    text-decoration: none;
+}
+
+.main-content__container__side-area__content .post a:hover{
+    text-decoration: underline;
+}
+
+.main-content__container__side-area__content .post:last-child{
+    border-bottom: none;
+}
+
+.main-content__container__side-area__content .post .text{
+    font-size: 0.8em;
+    padding: 5px 0 ;
+}
+
+.main-content__container__side-area__nav{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+}
+
+.main-content__container__side-area__nav a{
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: block;
+}
+
+.main-content__container__side-area__nav a:visited , 
+.main-content__container__side-area__nav a:link{
+    color: #f7b600;
+}
+
+.main-content__container__side-area__nav a:hover{
+    color: white;
+    background-color: #f7b600;
+}
+
